@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Main-Layout {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
+  
+  header {
+    background-color: #b8d8be;
+    grid-area: header;
+    padding: 1vw 1vw 1vw 1vw;
+  }
+  
+  main {
+    background-color: beige;
+    padding: 1vw 1vw 1vw 1vw;
+  }
+  
+  footer {
+    padding: 1vw 1vw 1vw 1vw;
+    background-color: paleturquoise;
+  }
+
+  
