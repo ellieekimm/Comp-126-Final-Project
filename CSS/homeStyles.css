@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #b8d8be;
+  background-color: #343434;
   grid-area: header;
   padding: 1vw 1vw 1vw 1vw;
 }
@@ -32,4 +32,17 @@ main {
 footer {
   padding: 1vw 1vw 1vw 1vw;
   background-color: paleturquoise;
+
+  
+}
+
+h1{
+  font-family: "Poppins", sans-serif;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+}
+p{
+  font-family: "Open Sans", sans-serif;
 }
