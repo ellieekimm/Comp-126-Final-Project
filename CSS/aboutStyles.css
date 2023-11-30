@@ -1,13 +1,17 @@
+* {
+    margin-bottom: 20px;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 48;
+    font-size: 72px;
     color: #006400;
+    margin-bottom: 10px;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 600;
 }
 
 p{
@@ -34,6 +38,22 @@ p{
 
 .text-width{
     width: 50%;
+}
+
+.border{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    height: 500px;
+    width: 400px;
+}
+
+.text-width-larger{
+    width: 73%;
+}
+
+#img3{
+    width: 362px;
+    height: 221px;
 }
 
 @media screen and (min-width: 768px){
