@@ -6,8 +6,8 @@
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .Main-Layout {
@@ -21,28 +21,30 @@ body {
 header {
   background-color: #343434;
   grid-area: header;
-  padding: 1vw 1vw 1vw 1vw;
 }
 
 main {
   background-color: beige;
-  padding: 1vw 1vw 1vw 1vw;
 }
 
 footer {
-  padding: 1vw 1vw 1vw 1vw;
-  background-color: paleturquoise;
-
-  
+  background-color: rgb(56, 84, 84);
 }
 
-h1{
+h1 {
   font-family: "Poppins", sans-serif;
 }
 
-h2{
+h2 {
   font-family: "Montserrat", sans-serif;
 }
-p{
+p {
   font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: grid;
+  max-width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
 }
