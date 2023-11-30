@@ -1,0 +1,80 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48;
+    color: #006400;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    background-color: #006400; /* Green */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 491px; /* adjust as necessary */
+    height: 47px; /* adjust as necessary */
+    flex-shrink: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #8FBC8F; /* Light Green */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 491px; /* adjust as necessary */
+    height: 47px; /* adjust as necessary */
+    border: none;
+    flex-shrink: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-images {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px){
+    #farmer-width {
+        width: 65%;
+    }
+    .flex-images {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
