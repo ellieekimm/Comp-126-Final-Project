@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&display=swap");
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+
+}
+
+form {
+    border: 1px solid black;
+    background-color: #8FBC8F;
+    border-radius: 15px;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+strong {
+    font-weight: 1000;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 0.5px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+textarea {
+    border: 0.5px solid black;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 1px 1.5px 1px black;
+}
+
+button {
+    background-color: #006400; /* Green */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 491px; /* adjust as necessary */
+    height: 47px; /* adjust as necessary */
+    flex-shrink: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #8FBC8F; /* Light Green */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 491px; /* adjust as necessary */
+    height: 47px; /* adjust as necessary */
+    border: none;
+    flex-shrink: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+    form, input[type="text"],
+    input[type="email"], textarea {
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        padding: 20px;
+    }
+
+    textarea {
+        padding: 40px;
+    }
+
+}
