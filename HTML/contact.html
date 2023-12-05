@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contactStyles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us!</h1>
+    <h2> If you are interested in becoming a corporate sponsor, want to host a charity event for our cause, or just want to learn more, please contact us for more information!</h2>
+
+    <form method="post" action="contact.php">
+
+        <div>
+          <label for "username">
+            <strong>Name:</strong></label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <br>
+      
+        <div>
+          <label for "email">
+            <strong>Email Address:</strong>
+            <input type="email" name="email" id="email" />
+          </label>
+        </div>
+        <br>
+        <div>
+          <label for "text">
+            <strong>Company Name (if applicable):</strong>
+            <input type="text" name="company" id="company" />
+          </label>
+        </div>
+        <br>
+        <label for="desc"><strong>Description (500 char limit):</strong></label>
+        <br>
+        <textarea id="desc" name="desc" maxlength="500"></textarea>
+        <br>
+        
+        <button type="submit">
+          Contact Now!
+        </button>
+  
+      </form>
+      
+</body>
+</html>
