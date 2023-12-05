@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&display=swap");
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: black;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+div {
+    text-align: center;
+    background-color: #8FBC8F;
+    border-radius: 15px;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
