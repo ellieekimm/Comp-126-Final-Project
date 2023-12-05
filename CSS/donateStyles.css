@@ -1,37 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Main-Layout {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
-  }
-  
-  header {
-    background-color: #b8d8be;
-    grid-area: header;
-    padding: 1vw 1vw 1vw 1vw;
-  }
-  
-  main {
-    background-color: beige;
-    padding: 1vw 1vw 1vw 1vw;
-  }
-  
-  footer {
-    padding: 1vw 1vw 1vw 1vw;
-    background-color: paleturquoise;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  
+html,
+body {
+  height: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.container {
+  display: grid !important;
+  max-width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-areas:
+    "header header"
+    "donate info"
+    "footer footer";
+}
+
+header {
+  background-color: #343434;
+  grid-area: header;
+}
+
+.active {
+  color: #ffb2c9 !important;
+}
+
+a {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 24px !important;
+}
+
+header img {
+  width: 35%;
+}
+
+main .info {
+  grid-area: info;
+}
+
+main .donate {
+  grid-area: donate;
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(56, 84, 84);
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+main h1 {
+  color: #006400;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
