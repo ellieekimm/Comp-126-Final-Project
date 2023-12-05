@@ -18,6 +18,12 @@ label {
 
 }
 
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
 form {
     border: 1px solid black;
     background-color: #8FBC8F;

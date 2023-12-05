@@ -1,3 +1,7 @@
+body {
+    background-color: beige;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
@@ -23,75 +27,44 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
-button {
-    background-color: #006400; /* Green */
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 36px;
-    width: 491px; /* adjust as necessary */
-    height: 47px; /* adjust as necessary */
-    flex-shrink: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    border: none;
-    font-weight: 700;
-    margin-top: 50px;
+
+.btn {
+    background-color: #006400 !important; /* Green */
+    border-radius: 10px !important; 
+    color: white !important;
+    outline-color: #006400 !important;
+    border-color: #006400 !important;
+    width: 500px !important;
 }
 
-button:hover{
-    background-color: #8FBC8F; /* Light Green */
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 36px;
-    width: 491px; /* adjust as necessary */
-    height: 47px; /* adjust as necessary */
-    border: none;
-    flex-shrink: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 50px;
-
+.btn:hover, .btn:focus {
+    background-color: #8FBC8F !important; /* Light Green */
+    outline-color:#8FBC8F !important;
+    border-color: #8FBC8F !important;
+    color: #006400 !important;
 }
 
-button:focus{
-    background-color: #8FBC8F; /* Light Green */
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 36px;
-    width: 491px; /* adjust as necessary */
-    height: 47px; /* adjust as necessary */
-    border: none;
-    flex-shrink: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 50px;
-
-}
-
-img:hover{
+.img-circle:hover{
         box-shadow: 5px 5px #8FBC8F, 6px 6px #8FBC8F, 7px 7px #8FBC8F;
         transform: translateY(-10px);
 }
 
-img:focus{
+.img-circle:focus{
     box-shadow: 5px 5px #8FBC8F, 6px 6px #8FBC8F, 7px 7px #8FBC8F;
     transform: translateY(-10px);
 }
 
+.img-circle:active{
+    box-shadow: 5px 5px #8FBC8F, 6px 6px #8FBC8F, 7px 7px #8FBC8F;
+    transform: translateY(-10px);
+}
+header {
+    background-color: #343434 !important;
+}
 
+#margin-top{
+    margin-top: 20px;
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -127,7 +100,36 @@ img:focus{
 
 .farmer-reviews{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: auto;
+}
+
+.nav-item {
+    color: black !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: pink !important;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+a {
+    color: #FFFFFF !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 24px !important;
+}
+
+.active {
+    color: #FFB2C9 !important;
 }
 
 @media screen and (min-width: 768px){
@@ -143,6 +145,10 @@ img:focus{
     }
     .farmer-review{
         flex-direction: column;
+    }
+    .farmer-reviews{
+        flex-direction: row;
+        margin-top: 30px;
     }
 }
 
