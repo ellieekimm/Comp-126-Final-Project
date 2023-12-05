@@ -10,8 +10,11 @@ body {
   padding: 0px !important;
 }
 
-.Main-Layout {
+.container {
   display: grid;
+  max-width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
   grid-template-areas:
     "header"
     "main"
@@ -24,8 +27,7 @@ header {
 }
 
 main {
-  background-color: beige;
-  grid-area: header;
+  grid-area: main;
 }
 
 footer {
@@ -43,17 +45,6 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
-  display: grid;
-  max-width: 100% !important;
-  margin: 0px !important;
-  padding: 0px !important;
-  grid-template-areas:
-    "header"
-    "photos"
-    "footer";
-}
-
 header img {
   width: 35%;
 }
@@ -63,12 +54,34 @@ header img {
 }
 
 a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 900 !important;
   font-size: 24px !important;
 }
 
 .active {
-  color: #FFB2C9 !important;
+  color: #ffb2c9 !important;
+}
+
+main h1 {
+  color: #006400;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main img {
+  width: 100%;
 }
