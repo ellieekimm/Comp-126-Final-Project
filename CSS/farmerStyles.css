@@ -1,19 +1,28 @@
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: 72px;
     color: #006400;
+    margin-bottom: 10px;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
+    color: #8FBC8F; 
+    font-weight: bolder;
 }
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
-
 button {
     background-color: #006400; /* Green */
     border-radius: 10px;
@@ -52,10 +61,36 @@ button:hover{
 
 }
 
+button:focus{
+    background-color: #8FBC8F; /* Light Green */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 491px; /* adjust as necessary */
+    height: 47px; /* adjust as necessary */
+    border: none;
+    flex-shrink: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+
 img:hover{
         box-shadow: 5px 5px #8FBC8F, 6px 6px #8FBC8F, 7px 7px #8FBC8F;
         transform: translateY(-10px);
 }
+
+img:focus{
+    box-shadow: 5px 5px #8FBC8F, 6px 6px #8FBC8F, 7px 7px #8FBC8F;
+    transform: translateY(-10px);
+}
+
 
 .flex-column {
     display: flex;

@@ -9,15 +9,23 @@ h1{
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #8FBC8F;
+    font-size: 28px;
+    color: #8FBC8F; 
+    font-weight: bolder;
 }
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .flex-column {
@@ -38,7 +46,7 @@ p{
 }
 
 .text-width{
-    width: 50%;
+    width: 75%;
 }
 
 .border{
@@ -49,7 +57,7 @@ p{
 }
 
 .text-width-larger{
-    width: 73%;
+    width: 85%;
 }
 
 #img3{
