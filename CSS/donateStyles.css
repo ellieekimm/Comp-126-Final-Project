@@ -15,8 +15,9 @@ body {
   max-width: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
-  grid-template-rows: auto auto auto !important;
+  grid-template-rows: auto auto 1fr !important;
   grid-template-columns: 2fr 1fr !important;
+  min-height: 100vh;
   grid-template-areas:
     "header header"
     "donate info"
@@ -91,6 +92,7 @@ form h2 {
   font-family: Montserrat;
   font-size: 36px;
   border: 3px solid #006400;
+  border-radius: 15px;
   background: #8fbc8f;
   color: #fff;
   line-height: 60px;
@@ -99,7 +101,7 @@ form h2 {
 label {
   color: #fff;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 50px;
 }
@@ -143,14 +145,26 @@ button[type="submit"]:hover {
 
 footer {
   grid-area: footer;
-  background-color: rgb(56, 84, 84);
+  display: flex;
+  background-color: #ffb2c9;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin: 0px !important;
 }
 
 #navbarNav {
   justify-content: flex-end;
 }
 
-main h1 {
+form h1 {
   color: #006400;
   text-align: center;
   font-family: Poppins;
@@ -159,7 +173,7 @@ main h1 {
   font-weight: 700;
   line-height: normal;
 }
-main h2 {
+form h2 {
   color: #000;
   text-align: center;
   font-family: Montserrat;
