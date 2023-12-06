@@ -50,12 +50,18 @@ header img {
   color: #000;
   text-align: center;
   font-family: Montserrat;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin: 2%;
   padding: 2%;
+}
+
+.info img {
+  width: 90%;
+  border-radius: 15px;
+  margin: 20px 0px 20px 0px;
 }
 
 .donate {
