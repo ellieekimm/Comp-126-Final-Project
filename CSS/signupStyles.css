@@ -142,6 +142,7 @@ button {
     grid-template-rows: 20px repeat(5, 40px 60px) 70px;
     margin: 10px
   }
+
   
   .events1 {
     grid-column: span 1;
@@ -201,27 +202,27 @@ button {
   }
   
 .rowFill{
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
+    grid-row: 1 / 2 !important;
+    grid-column: 1 / 2 !important;
 }
 
 
   .repeatGrid{
-    grid-row: span 1;
-    grid-column: 1 / 4;
-    padding-left: 50px;
-    padding-right: 50px;
+    grid-row: span 1 !important;
+    grid-column: 1 / 4 !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 
   .repeatGrid2{
-    grid-row: span 1;
-    grid-column: 1 / 4;
-    padding-left: 50px;
-    padding-right: 50px;
+    grid-row: span 1 !important;
+    grid-column: 1 / 4 !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 
   #fillBox{
-    width: 100%;
+    width: 100% !important;
   }
 
   
@@ -284,6 +285,7 @@ button {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
     margin: 10px;
+  }
   
     .top{
       grid-column: span 2;
@@ -303,5 +305,5 @@ button {
     }
   
   }
-}
+
   /* MEDIA QUERY END */
