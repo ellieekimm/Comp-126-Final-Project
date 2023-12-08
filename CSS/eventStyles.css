@@ -12,6 +12,19 @@ button {
   margin: 10px;
 }
 
+a {
+  color: #FFFFFF !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 24px !important;
+}
+
+#signupbutton {
+  font-family: 'Monserrat', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
 h1{
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -104,12 +117,7 @@ header img {
   justify-content: flex-end;
 }
 
-a {
-  color: #FFFFFF !important;
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: 900 !important;
-  font-size: 24px !important;
-}
+
 
 .active {
   color: #FFB2C9 !important;
@@ -132,30 +140,36 @@ a {
   grid-column: span 1;
   grid-row: span 1;
   background:rgba(143,188,143,1);
+  border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 2fr;
-  margin: 10px
+  margin: 10px;
+  column-gap: 10px;
 }
 
 .events2 {
   grid-column: span 1;
   grid-row: span 1;
   background:rgba(143,188,143,1);
+  border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 2fr;
-  margin: 10px
+  margin: 10px;
+  column-gap: 10px;
 }
 
 .events3 {
   grid-column: span 1;
   grid-row: span 1;
   background:rgba(143,188,143,1);
+  border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 2fr;
-  margin: 10px
+  margin: 10px;
+  column-gap: 10px;
 }
 
 .top{
@@ -173,6 +187,7 @@ a {
 .summary{
   grid-column: 2;
   grid-row: span 2;
+  padding-right: 5px;
 }
 
 
@@ -246,6 +261,8 @@ a {
   .summary{
     grid-column: 2;
     grid-row: span 2;
+    padding-right: 10px;
+    padding-bottom: 5px;
   }
 
 

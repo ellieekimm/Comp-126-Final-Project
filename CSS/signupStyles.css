@@ -147,6 +147,7 @@ button {
     grid-column: span 1;
     grid-row: span 1;
     background:rgba(143,188,143,1);
+    border-radius: 10px !important;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
@@ -157,6 +158,7 @@ button {
     grid-column: span 1;
     grid-row: span 1;
     background:rgba(143,188,143,1);
+    border-radius: 10px !important;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
@@ -178,11 +180,20 @@ button {
   .summary{
     grid-column: 2;
     grid-row: span 2;
+    padding-right: 5px;
+    padding-left: 10px;
   }
   
 
   #signupbut{
     width: 200px;
+  }
+
+
+  #signupbutton {
+    font-family: 'Monserrat', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
   }
 
   #buttonsign{
