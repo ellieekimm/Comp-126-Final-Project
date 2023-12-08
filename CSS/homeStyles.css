@@ -15,10 +15,12 @@ body {
   max-width: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "header"
     "main"
     "footer";
+  min-height: 100vh;
 }
 
 header {
@@ -31,18 +33,19 @@ main {
 }
 
 footer {
-  background-color: rgb(56, 84, 84);
+  display: flex;
+  background-color: #ffb2c9;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-}
 p {
-  font-family: "Open Sans", sans-serif;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin: 0px !important;
 }
 
 header img {
