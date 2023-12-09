@@ -114,6 +114,11 @@ header img {
   color: #ffb2c9 !important;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
+}
+
 .pastevents {
   grid-column: span 1;
   grid-row: 5 / 6;
