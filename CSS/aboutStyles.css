@@ -158,13 +158,13 @@ footer p {
   padding-left: 15px !important;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1100px){
     #farmer-width {
         width: 65%;
     }
     .flex-values {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 20px;
