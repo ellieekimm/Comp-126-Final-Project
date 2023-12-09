@@ -12,6 +12,8 @@ button {
     margin: 10px;
   }
   
+  
+
   h1{
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
@@ -71,7 +73,21 @@ button {
   }
   
   footer {
-    background-color: rgb(56, 84, 84);
+    display: flex;
+    background-color: #ffb2c9;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  footer p {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 0px !important;
   }
   
   h1 {

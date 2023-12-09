@@ -213,9 +213,7 @@ footer p {
   margin: 0px !important;
 }
 
-.flex-column {
-  grid-row: 8 / 9;
-}
+
 
 .navbar-nav {
   padding-left: 15px !important;
