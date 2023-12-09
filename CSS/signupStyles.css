@@ -11,6 +11,12 @@ form button {
   margin: 10px;
 }
 
+.overallLayout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .img-fluid {
   width: 200px !important;
   height: auto;
@@ -45,7 +51,6 @@ form button:focus {
   grid-template-columns: 100%;
   grid-template-rows: 50px 150px 150px 150px 150px 50px 150px 150px;
   gap: 5px;
-
 }
 
 /* NAV BAR CSS START */
@@ -119,6 +124,10 @@ p {
     "footer";
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
+}
 header img {
   width: 35%;
 }

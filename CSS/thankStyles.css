@@ -35,7 +35,8 @@ h2 {
 }
 
 header {
-  background-color: #343434;
+  background-color: green;
+
   grid-area: header;
 }
 
@@ -46,10 +47,6 @@ main {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
-}
-
-header {
-  background-color: #343434;
 }
 
 header img {
@@ -86,6 +83,10 @@ a {
   outline-color: #8fbc8f !important;
   border-color: #8fbc8f !important;
   color: #006400 !important;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
 }
 
 .img-fluid {
