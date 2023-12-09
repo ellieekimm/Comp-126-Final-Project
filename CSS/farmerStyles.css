@@ -21,11 +21,15 @@ h1{
     color: #006400;
     margin-bottom: 10px;
 }
+.img-fluid {
+    width: 200px;
+    height: auto;
+}
 
 .flex-column {
-    flex: 1; /* This will make it take the available space and push the footer to the bottom */
+    flex: 1; 
     padding: 20px;
-  }
+}
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -172,6 +176,10 @@ footer p {
     font-family: Montserrat;
     font-size: 18px;
     margin: 0px !important;
+}
+
+.navbar-nav {
+    padding-left: 15px !important;
 }
 
 @media screen and (min-width: 768px){
