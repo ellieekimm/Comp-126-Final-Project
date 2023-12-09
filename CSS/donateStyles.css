@@ -187,7 +187,7 @@ p {
   font-size: 14px;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 768px) {
   .container {
     grid-template-rows: auto auto 1fr !important;
     grid-template-columns: 2fr 1fr !important;
