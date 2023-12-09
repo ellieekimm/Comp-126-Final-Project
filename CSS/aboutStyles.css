@@ -104,11 +104,11 @@ header {
     height: 221px;
 }
 
-.container{
-    margin-left: none !important;
-    margin-right: none !important;
-    width: 100% !important;
-    background-color: #343434 !important;
+.overallLayout{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -163,7 +163,7 @@ footer p {
     padding-left: 15px !important;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1500px){
     #farmer-width {
         width: 65%;
     }

@@ -1,50 +1,49 @@
-
-
 button {
-  background-color: white; 
+  background-color: white;
   border-radius: 10px !important;
   color: #006400;
   font-size: 36px;
-  width: 100px; 
+  width: 100px;
   height: 30px;
-  font-family: 'Monserrat', sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-size: 12px;
   font-weight: 600;
   margin: 10px;
 }
 
 a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 900 !important;
   font-size: 24px !important;
 }
 
 .signupbutton {
-  font-family: 'Monserrat', sans-serif !important;
+  font-family: "Monserrat", sans-serif !important;
   font-size: 14px !important;
   font-weight: 600 !important;
 }
 
-h1{
-  font-family: 'Poppins', sans-serif;
+h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 48px;
   margin: 0;
   padding: 10px;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
 }
 
-p{
-  font-family: 'Open Sans', sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-button:hover, button:focus{
+button:hover,
+button:focus {
   border-radius: 10px;
   color: #343434;
 }
@@ -53,11 +52,8 @@ button:hover, button:focus{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 50px 150px 150px 150px 50px 150px 150px;
-  gap: 5px
+  gap: 5px;
 }
-
-
-
 
 html,
 body {
@@ -83,8 +79,6 @@ main {
   background-color: beige;
   grid-area: header;
 }
-
-
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -116,21 +110,16 @@ header img {
   justify-content: flex-end;
 }
 
-
-
 .active {
-  color: #FFB2C9 !important;
+  color: #ffb2c9 !important;
 }
 
-
-
-
-.pastevents{
+.pastevents {
   grid-column: span 1;
   grid-row: 5 / 6;
 }
 
-.signup{
+.signup {
   grid-column: span 1;
   grid-row: 1 / 2;
 }
@@ -138,7 +127,7 @@ header img {
 .events1 {
   grid-column: span 1;
   grid-row: span 1;
-  background:rgba(143,188,143,1);
+  background: rgba(143, 188, 143, 1);
   border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -150,7 +139,7 @@ header img {
 .events2 {
   grid-column: span 1;
   grid-row: span 1;
-  background:rgba(143,188,143,1);
+  background: rgba(143, 188, 143, 1);
   border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -162,7 +151,7 @@ header img {
 .events3 {
   grid-column: span 1;
   grid-row: span 1;
-  background:rgba(143,188,143,1);
+  background: rgba(143, 188, 143, 1);
   border-radius: 10px !important;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -171,19 +160,19 @@ header img {
   column-gap: 10px;
 }
 
-.top{
+.top {
   grid-column: span 2;
   grid-row: span 1;
   padding-left: 10px;
 }
 
-.bottom{
+.bottom {
   grid-column: 1;
   grid-row: span 2;
   padding-left: 10px;
 }
 
-.summary{
+.summary {
   grid-column: 2;
   grid-row: span 2;
   padding-right: 5px;
@@ -193,7 +182,6 @@ header img {
   width: 200px;
   height: auto;
 }
-
 
 footer {
   display: flex;
@@ -213,33 +201,29 @@ footer p {
   margin: 0px !important;
 }
 
-
-
 .navbar-nav {
   padding-left: 15px !important;
 }
 
-@media screen and (min-width: 768px){
-
-
+@media screen and (min-width: 768px) {
   footer {
     position: absolute;
     bottom: 0;
   }
 
-.grid-container {
+  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 150px 150px 150px;
-    gap: 5px
+    gap: 5px;
   }
 
-  .pastevents{
+  .pastevents {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
 
-  .signup{
+  .signup {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -247,51 +231,49 @@ footer p {
   .events1 {
     grid-column: span 1 / 2;
     grid-row: span 1;
-	background:rgba(143,188,143,1);
+    background: rgba(143, 188, 143, 1);
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
-    margin: 10px
+    margin: 10px;
   }
 
   .events2 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-	  background:rgba(143,188,143,1);
+    background: rgba(143, 188, 143, 1);
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
-    margin: 10px
+    margin: 10px;
   }
 
   .events3 {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-	  background:rgba(143,188,143,1);
+    background: rgba(143, 188, 143, 1);
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
-    margin: 10px
+    margin: 10px;
   }
 
-  .top{
+  .top {
     grid-column: span 2;
     grid-row: span 1;
     padding-left: 10px;
   }
 
-  .bottom{
+  .bottom {
     grid-column: 1;
     grid-row: span 2;
     padding-left: 10px;
   }
 
-  .summary{
+  .summary {
     grid-column: 2;
     grid-row: span 2;
     padding-right: 10px;
     padding-bottom: 5px;
   }
-
-
 }

@@ -45,7 +45,7 @@ header img {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url()
+  background-image: url();
 }
 
 .info {
@@ -143,7 +143,8 @@ button[type="submit"] {
   border: 0px;
 }
 
-button[type="submit"]:hover, button[type="submit"]:focus {
+button[type="submit"]:hover,
+button[type="submit"]:focus {
   background-color: #8fbc8f;
 }
 
