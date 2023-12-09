@@ -191,6 +191,10 @@ header img {
   padding-right: 5px;
 }
 
+.img-fluid {
+  width: 200px;
+  height: auto;
+}
 
 
 footer {
@@ -218,7 +222,9 @@ footer p {
   padding: 20px;
 }
 
-
+.navbar-nav {
+  padding-left: 15px !important;
+}
 
 @media screen and (min-width: 768px){
 

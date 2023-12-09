@@ -108,6 +108,34 @@ footer p {
     margin: 0px !important;
 }
 
+.img-fluid {
+    width: 200px;
+    height: auto;
+}
+
+header img {
+    width: 35%;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+a {
+    color: #FFFFFF !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 24px !important;
+}
+
+.active {
+    color: #FFB2C9 !important;
+}
+
+.navbar-nav {
+    padding-left: 15px !important;
+}
+
 @media screen and (min-width: 768px){
     form, input[type="text"],
     input[type="email"], textarea {
@@ -126,21 +154,3 @@ footer p {
 }
 
 
-header img {
-    width: 35%;
-  }
-  
-  #navbarNav {
-    justify-content: flex-end;
-  }
-  
-  a {
-    color: #FFFFFF !important;
-    font-family: "Montserrat", sans-serif !important;
-    font-weight: 900 !important;
-    font-size: 24px !important;
-  }
-  
-  .active {
-    color: #FFB2C9 !important;
-  }

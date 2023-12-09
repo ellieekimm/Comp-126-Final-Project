@@ -23,6 +23,11 @@ body {
   min-height: 100vh;
 }
 
+.img-fluid {
+  width: 200px;
+  height: auto;
+}
+
 header {
   background-color: #343434;
   grid-area: header;
@@ -99,4 +104,8 @@ footer p {
   font-family: Montserrat;
   font-size: 18px;
   margin: 0px !important;
+}
+
+.navbar-nav {
+  padding-left: 15px !important;
 }
