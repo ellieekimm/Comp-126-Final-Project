@@ -20,10 +20,6 @@ h1{
     color: #006400;
     margin-bottom: 10px;
 }
-.img-fluid {
-    width: 200px;
-    height: auto;
-}
 
 .flex-column {
     flex: 1; 
@@ -37,12 +33,20 @@ h2 {
     font-weight: bolder;
 }
 
+.header-image {
+    width: 200px;
+    height: auto;
+}
+
 h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: black;
 }
 
+.farmer-review h2 {
+    margin-top: 15px;
+}
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -84,7 +88,7 @@ p{
     transform: translateY(-10px);
 }
 header {
-    background-color: #343434 !important;
+    background-color: green !important;
 }
 
 #margin-top{
@@ -179,6 +183,11 @@ footer p {
 
 .navbar-nav {
     padding-left: 15px !important;
+}
+
+.img-fluid {
+    width: 200px !important;
+    height: auto;
 }
 
 @media screen and (min-width: 768px){

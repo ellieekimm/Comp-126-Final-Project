@@ -75,7 +75,7 @@ body {
 }
 
 header {
-  background-color: #343434;
+  background-color: green;
   grid-area: header;
 }
 
