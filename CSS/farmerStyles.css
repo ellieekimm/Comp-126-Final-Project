@@ -1,9 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
-    background-color: beige;
-    margin: 0; /* Remove default margin */
+    min-height: 100vh; 
+    margin: 0;
 }
 
 .flex-values p {
