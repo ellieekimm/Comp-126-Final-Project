@@ -110,3 +110,8 @@ footer p {
 .navbar-nav {
   padding-left: 15px !important;
 }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
+}

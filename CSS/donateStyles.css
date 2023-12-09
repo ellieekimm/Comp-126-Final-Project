@@ -202,3 +202,8 @@ p {
       "footer footer";
   }
 }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
+}

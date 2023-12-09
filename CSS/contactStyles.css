@@ -28,7 +28,7 @@ label {
 }
 
 header {
-  background-color: #343434;
+  background-color: green;
   grid-area: header;
 }
 
@@ -39,10 +39,6 @@ main {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
-}
-
-header {
-  background-color: #343434;
 }
 
 header img {
