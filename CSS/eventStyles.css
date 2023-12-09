@@ -84,9 +84,7 @@ main {
   grid-area: header;
 }
 
-footer {
-  background-color: rgb(56, 84, 84);
-}
+
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -198,14 +196,12 @@ header img {
 
 
 footer {
-  grid-area: footer;
   display: flex;
   background-color: #ffb2c9;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -218,8 +214,7 @@ footer p {
 }
 
 .flex-column {
-  flex: 1; 
-  padding: 20px;
+  grid-row: 8 / 9;
 }
 
 .navbar-nav {
@@ -227,6 +222,11 @@ footer p {
 }
 
 @media screen and (min-width: 768px){
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
 
 .grid-container {
     display: grid;
