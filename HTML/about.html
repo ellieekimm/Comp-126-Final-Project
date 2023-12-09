@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../CSS/aboutStyles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../CSS/aboutStyles.css">
         <title>Ethicow - About</title>
     </head>
-    <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <img
+          class="img-fluid"
+          src="../img/Ethicow.png"
+          alt="Ethicow Logo" >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-label="Toggle Navigation Menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="farmer.html">Farmers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donate.html">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
         <div class = "flex-column">
             <h1>Our Core Values</h1>
             <h3 class = "text-width">Ethicow is a nonprofit organization at the forefront of fostering ethical grazing practices in agriculture. Committed to the principles of sustainability and humane animal treatment, Ethicow provides a multifaceted approach to support farmers. Through educational initiatives, advocacy, and community-building efforts, Ethicow aims to create a paradigm shift in farming practices, promoting a harmonious balance between agricultural productivity and ethical considerations. </h3>
@@ -31,8 +70,12 @@
                     <img src = "../img/about3.jpeg" alt = "About 2 img" id = "img3">
                     <p class = "text-width-larger">Ethicow values the power of community collaboration for positive change. We believe in fostering a sense of belonging among farmers, agricultural experts, and enthusiasts. By encouraging active participation within our community, Ethicow creates a network dedicated to advancing ethical grazing practices collectively.  </p>
                 </div>
-
             </div>
         </div>
-    </body>
+        <footer>
+          <p>
+            Ethicow © All rights reserved. Made with ♥ in Chapel Hill. Designed
+            and built by Colby Eagan, Ellie Kim, Lauren Lascano, and William Wang
+          </p>
+        </footer>
 </html>

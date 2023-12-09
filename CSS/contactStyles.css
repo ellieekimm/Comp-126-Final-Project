@@ -18,6 +18,12 @@ label {
 
 }
 
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
 form {
     border: 1px solid black;
     background-color: #8FBC8F;
@@ -82,6 +88,26 @@ button:hover{
     font-weight: 700;
 }
 
+footer {
+    grid-area: footer;
+    display: flex;
+    background-color: #ffb2c9;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer p {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 0px !important;
+}
+
 @media screen and (min-width: 768px){
     form, input[type="text"],
     input[type="email"], textarea {
@@ -98,3 +124,23 @@ button:hover{
     }
 
 }
+
+
+header img {
+    width: 35%;
+  }
+  
+  #navbarNav {
+    justify-content: flex-end;
+  }
+  
+  a {
+    color: #FFFFFF !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 24px !important;
+  }
+  
+  .active {
+    color: #FFB2C9 !important;
+  }
