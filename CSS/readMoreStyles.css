@@ -88,12 +88,16 @@ button {
   }
 
 
-  #signupbutton {
+.signupbutton {
     width: 200px;
     font-family: 'Monserrat', sans-serif !important;
     font-size: 14px !important;
     font-weight: 600 !important;
   }
+
+form {
+    padding: 10px;
+}
 
 @media screen and (min-width: 768px){
     #farmer-width {

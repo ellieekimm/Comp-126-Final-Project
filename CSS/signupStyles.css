@@ -191,7 +191,7 @@ button {
   }
 
 
-  #signupbutton {
+  .signupbutton {
     font-family: 'Monserrat', sans-serif !important;
     font-size: 14px !important;
     font-weight: 600 !important;
