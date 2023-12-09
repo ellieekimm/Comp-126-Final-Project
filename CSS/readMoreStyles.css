@@ -1,5 +1,6 @@
 * {
-  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
 }
 a {
   color: #ffffff !important;
@@ -101,7 +102,7 @@ footer {
   align-items: center;
   padding: 20px;
   bottom: 0px;
-  margin: -10px;
+
   width: 100%;
 }
 
@@ -111,6 +112,13 @@ footer p {
   font-family: Montserrat;
   font-size: 18px;
   margin: 0px !important;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {

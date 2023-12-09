@@ -1,4 +1,4 @@
-button {
+form button {
   background-color: white;
   border-radius: 10px !important;
   color: #006400;
@@ -34,8 +34,8 @@ p {
   font-weight: 400;
 }
 
-button:hover,
-button:focus {
+form button:hover,
+form button:focus {
   border-radius: 10px;
   color: #343434;
 }
@@ -45,6 +45,7 @@ button:focus {
   grid-template-columns: 100%;
   grid-template-rows: 50px 150px 150px 150px 150px 50px 150px 150px;
   gap: 5px;
+
 }
 
 /* NAV BAR CSS START */
