@@ -12,6 +12,10 @@ button {
     margin: 10px;
   }
   
+  .img-fluid {
+    width: 200px !important;
+    height: auto;
+  }
   
 
   h1{
@@ -63,7 +67,7 @@ button {
   }
   
   header {
-    background-color: #343434;
+    background-color: green;
     grid-area: header;
   }
   
