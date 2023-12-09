@@ -52,7 +52,7 @@ button:hover{
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 50px 150px 150px 150px 50px 150px 150px;
+  grid-template-rows: 50px 150px 150px 150px 50px 150px 150px 100px;
   gap: 5px
 }
 

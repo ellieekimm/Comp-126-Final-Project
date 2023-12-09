@@ -208,7 +208,7 @@ footer p {
 
 @media (max-width: 800px) {
   .container {
-    grid-template-rows: auto 1fr auto 1fr !important;
+    grid-template-rows: auto 1fr auto auto !important;
     grid-template-columns: 1fr !important;
     grid-template-areas:
       "header"
