@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background-color: #343434;
+  background-color: green;
   grid-area: header;
 }
 
@@ -41,7 +41,11 @@ a {
 }
 
 header img {
-  width: 35%;
+  width: 200px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url()
 }
 
 .info {
