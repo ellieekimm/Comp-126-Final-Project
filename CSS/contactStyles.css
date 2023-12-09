@@ -45,6 +45,12 @@ header img {
   width: 35%;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: pink !important;
+}
+
+
 #navbarNav {
   justify-content: flex-end;
 }
