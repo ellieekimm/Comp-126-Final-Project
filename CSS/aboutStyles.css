@@ -175,9 +175,8 @@ footer p {
     }
     
 }
->>>>>>> f2e4329 (Fixed farmer width)
 
-  .footer-flex {
+.footer-flex {
     flex-direction: row;
-  }
 }
+
