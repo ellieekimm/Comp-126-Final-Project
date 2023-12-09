@@ -9,19 +9,19 @@ body {
   margin: 0px !important;
   padding: 0px !important;
 }
-
 .container {
   display: grid !important;
   max-width: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
-  grid-template-rows: auto auto 1fr !important;
-  grid-template-columns: 2fr 1fr !important;
+  grid-template-rows: auto 1fr auto auto !important;
+  grid-template-columns: 1fr !important;
   min-height: 100vh;
   grid-template-areas:
-    "header header"
-    "donate info"
-    "footer footer";
+    "header"
+    "donate"
+    "info"
+    "footer";
 }
 
 header {
@@ -186,43 +186,13 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-footer {
-  grid-area: footer;
-  display: flex;
-  background-color: #ffb2c9;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  bottom: 0;
-  width: 100%;
-
-}
-
-.img-fluid {
-  width: 200px;
-  height: auto;
-}
-
-footer p {
-  color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 18px;
-  margin: 0px !important;
-}
-
-.navbar-nav {
-  padding-left: 15px !important;
-}
-
-@media (max-width: 800px) {
+@media (min-width: 820px) {
   .container {
-    grid-template-rows: auto 1fr auto auto !important;
-    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto 1fr !important;
+    grid-template-columns: 2fr 1fr !important;
     grid-template-areas:
-      "header"
-      "donate"
-      "info"
-      "footer";
+      "header header"
+      "donate info"
+      "footer footer";
   }
 }
