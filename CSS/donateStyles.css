@@ -9,19 +9,19 @@ body {
   margin: 0px !important;
   padding: 0px !important;
 }
-
 .container {
   display: grid !important;
   max-width: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
-  grid-template-rows: auto auto 1fr !important;
-  grid-template-columns: 2fr 1fr !important;
+  grid-template-rows: auto 1fr auto auto !important;
+  grid-template-columns: 1fr !important;
   min-height: 100vh;
   grid-template-areas:
-    "header header"
-    "donate info"
-    "footer footer";
+    "header"
+    "donate"
+    "info"
+    "footer";
 }
 
 header {
@@ -186,14 +186,13 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .container {
-    grid-template-rows: auto 1fr auto 1fr !important;
-    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto 1fr !important;
+    grid-template-columns: 2fr 1fr !important;
     grid-template-areas:
-      "header"
-      "donate"
-      "info"
-      "footer";
+      "header header"
+      "donate info"
+      "footer footer";
   }
 }
