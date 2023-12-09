@@ -186,7 +186,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 820px) {
   .container {
     grid-template-rows: auto auto 1fr !important;
     grid-template-columns: 2fr 1fr !important;
