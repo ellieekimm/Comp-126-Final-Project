@@ -139,7 +139,7 @@ button[type="submit"] {
   border: 0px;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover, button[type="submit"]:focus {
   background-color: #8fbc8f;
 }
 
@@ -168,7 +168,7 @@ form h1 {
   color: #006400;
   text-align: center;
   font-family: Poppins;
-  font-size: 72px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -177,13 +177,14 @@ form h2 {
   color: #000;
   text-align: center;
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 p {
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 @media (min-width: 820px) {

@@ -17,7 +17,7 @@ body {
 
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 72px;
+    font-size: 48px;
     color: #006400;
     margin-bottom: 10px;
 }
@@ -33,7 +33,7 @@ h1{
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #8FBC8F; 
     font-weight: bolder;
 }

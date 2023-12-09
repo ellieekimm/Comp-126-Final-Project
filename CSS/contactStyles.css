@@ -21,7 +21,7 @@ label {
 
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 form {
@@ -70,7 +70,7 @@ button {
     font-weight: 700;
 }
 
-button:hover{
+button:hover, button:focus{
     background-color: #8FBC8F; /* Light Green */
     border-radius: 10px;
     color: white;
